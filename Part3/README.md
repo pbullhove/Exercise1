@@ -26,10 +26,10 @@ When answering the questions, remember to use all the resources at your disposal
  > Creates a thread. 
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > It does not interpret concurrently for different threads. It forces one thread to run for a while, then interprets the code, and then gives control to another thread. It makes threads work in serial in stead of parallell. 
+ > Allows only one thread to execute at a time - even if you have multiple processes.
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > Cython. Using threads from C but using Python code. 
+ > Multiprocessing module. Run two different python modules at a same time.
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > The maximum number of allowed threads. 
+ > The maximum number of allowed processes used. 
