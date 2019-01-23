@@ -12,6 +12,8 @@ var i = 0
 
 func incrementing() {
 	//TODO: increment i 1000000 times
+	// Ny test
+
 	for k := 0; k < 1000000; k++ {
 		i += 1
 	}
