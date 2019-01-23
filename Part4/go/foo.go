@@ -13,6 +13,7 @@ var i = 0
 func incrementing() {
 	//TODO: increment i 1000000 times
 	// Ny test
+	// ny commmit på branchen da
 
 	for k := 0; k < 1000000; k++ {
 		i += 1
